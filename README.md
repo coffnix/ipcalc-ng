@@ -7,13 +7,13 @@ ipcalc-ng (new generation) ---> Clone off http://jodies.de/ipcalc
 
 h3. 1- Install on APACHE:
 
-<pre><code>        <Directory "/var/www/hackstore.com.br/htdocs/ipcalc/cgi-bin">
-               Options Indexes -FollowSymLinks +SymLinksIfOwnerMatch
+<pre><code>        <Directory "/var/www/hackstore.com.br/htdocs/ipcalc/cgi-bin"></pre></code>
+<pre><code>                Options Indexes -FollowSymLinks +SymLinksIfOwnerMatch
                AddHandler cgi-script cgi pl
                DirectoryIndex ipcalc.cgi
                AllowOverride All
                Options ExecCGI
                Order allow,deny
-               Allow from all
+               Allow from all</pre></code>
 <pre><code>        </Directory></pre></code>
 
