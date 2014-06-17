@@ -14,6 +14,6 @@ h3. 1- Install on APACHE:
                AllowOverride All
                Options ExecCGI
                Order allow,deny
-               Allow from all</pre></code><pre><code>        
-        </Directory></pre></code>
+               Allow from all</code>
+        <code></Directory></pre></code>
 
